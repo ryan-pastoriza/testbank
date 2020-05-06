@@ -1,0 +1,29 @@
+INSERT INTO `major_exams` (`exam_id`, `exam_period`) VALUES 
+('1', 'PRELIM'), 
+('2', 'MIDTERM'), 
+('3', 'PRE-FINAL'), 
+('4', 'FINAL'),
+('5', 'PRELIM EXAM'), 
+('6', 'MIDTERM EXAM'), 
+('7', 'PRE-FINAL EXAM'), 
+('8', 'FINAL EXAM'),
+('9', 'FIRST QUARTER'), 
+('10', 'SECOND QUARTER'),
+('11', 'THIRD QUARTER'), 
+('12', 'FOURTH QUARTER');
+
+INSERT INTO `super_user` (`id`, `username`, `password`, `position`, `status`) VALUES
+(1, 'admin', '1234', 'ADMIN', 'offline'),
+(2, 'print', '1234', 'Printing Incharge', 'offline');
+
+INSERT INTO `cognitive_level` (`cognitive_level_id`, `cognitive_desc`) VALUES
+(1, 'Knowledge'),
+(2, 'Comprehension'),
+(3, 'Application'),
+(4, 'Analysis'),
+(5, 'Evaluation'),
+(6, 'Synthesis');
+
+INSERT INTO `semester` (`sem_id`, `semester`) VALUES
+(1, '1st'),
+(2, '2nd');

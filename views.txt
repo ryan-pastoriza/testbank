@@ -1,0 +1,95 @@
+syll
+
+
+SELECT
+syllabus.course_info_id AS course_info_id,
+syllabus.ss_id AS ss_id,
+sched_subj.employment_id AS employment_id,
+sched_subj.subj_id AS subj_id,
+sched_subj.sem_id AS sem_id,
+sched_subj.sy_id AS sy_id,
+employment.employment_status AS employment_status,
+employment.employment_job_title AS employment_job_title,
+employment.employee_id AS employee_id,
+employment.department_id AS department_id,
+employees.employee_fname AS employee_fname,
+employees.employee_mname AS employee_mname,
+employees.employee_lname AS employee_lname,
+employees.employee_ext AS employee_ext,
+`subject`.subj_code AS subj_code,
+`subject`.subj_name AS subj_name,
+`subject`.subj_desc AS subj_desc,
+`subject`.cs_id AS cs_id,
+major_exams.exam_period AS exam_period,
+department.department_name AS department_name,
+department.department_status AS department_status,
+syllabusstatus.status_desc AS status_desc,
+syllabusstatus.date_time AS syllabus_date_time,
+syllabusstatus.syll_status,
+syllabusstatus.syllabus_id,
+user_access.user_id,
+user_access.username
+FROM
+((((((((syllabus
+JOIN sched_subj ON ((syllabus.ss_id = sched_subj.ss_id)))
+JOIN employment ON ((sched_subj.employment_id = employment.employment_id)))
+JOIN employees ON ((employment.employee_id = employees.employee_id)))
+JOIN `subject` ON ((sched_subj.subj_id = `subject`.subj_id))))) ,
+major_exams)
+JOIN department ON ((employment.department_id = department.department_id)))
+INNER JOIN syllabusstatus ON syllabusstatus.syllabus_id = syllabus.syllabus_id
+INNER JOIN user_access ON user_access.employment_id = employment.employment_id 
+
+
+
+
+
+notif
+
+
+
+SELECT
+syllabus.course_info_id AS course_info_id,
+syllabus.ss_id AS ss_id,
+sched_subj.employment_id AS employment_id,
+sched_subj.subj_id AS subj_id,
+sched_subj.sem_id AS sem_id,
+sched_subj.sy_id AS sy_id,
+employment.employment_status AS employment_status,
+employment.employment_job_title AS employment_job_title,
+employment.employee_id AS employee_id,
+employment.department_id AS department_id,
+employees.employee_fname AS employee_fname,
+employees.employee_mname AS employee_mname,
+employees.employee_lname AS employee_lname,
+employees.employee_ext AS employee_ext,
+`subject`.subj_code AS subj_code,
+`subject`.subj_name AS subj_name,
+`subject`.subj_desc AS subj_desc,
+`subject`.cs_id AS cs_id,
+tq.tos_remarks AS tos_remarks,
+tq.syllabus_id AS syllabus_id,
+tq.exam_id AS exam_id,
+tqstatus.status_desc AS status_desc,
+tqstatus.late AS late,
+tqstatus.revise_count AS revise_count,
+tqstatus.date_time AS date_time,
+tqstatus.notif_status AS notif_status,
+tqstatus.tq_id AS tq_id,
+major_exams.exam_period AS exam_period,
+department.department_name AS department_name,
+department.department_status AS department_status,
+employees.employee_id AS employ_id,
+user_access.user_id,
+user_access.username
+FROM
+((((((((syllabus
+JOIN sched_subj ON ((syllabus.ss_id = sched_subj.ss_id)))
+JOIN employment ON ((sched_subj.employment_id = employment.employment_id)))
+JOIN employees ON ((employment.employee_id = employees.employee_id)))
+JOIN `subject` ON ((sched_subj.subj_id = `subject`.subj_id)))
+JOIN tq ON ((tq.syllabus_id = syllabus.syllabus_id)))
+JOIN tqstatus ON ((tqstatus.tq_id = tq.tq_id)))
+JOIN major_exams ON ((tq.exam_id = major_exams.exam_id)))
+JOIN department ON ((employment.department_id = department.department_id)))
+INNER JOIN user_access ON user_access.employment_id = employment.employment_id 

@@ -1,0 +1,43 @@
+body{
+	font-family: tahoma;
+	font-size: 12px;
+	color: #333;
+	background:#fff;
+}
+input{
+	padding: 5px;
+	border:0px;
+	font-family: tahoma;
+	font-size: 12px;
+	color: #333;
+	background:#fff;
+	font-size:12;
+	box-shadow: 0 0 5px rgba(210, 210, 210, 210);
+}
+#search_result{
+	padding: 5px;
+	background:#fff;
+	color:#333;
+	box-shadow: 0 0 5px rgba(210, 210, 210, 210);
+	position: absolute;
+	display: none;
+}
+a{
+	background:#fff;
+	color:#4aaee7;
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+}
+a:hover{
+	background:#4aaee7;
+	color:#fff;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+li{
+	padding:5px;
+}

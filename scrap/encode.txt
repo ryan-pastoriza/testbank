@@ -1,0 +1,67 @@
+multiple choice
+
+The period from th 1800s to 1957, when work process were simplified through mechanization and automation.
+a. Agricultural Age  b. Infromation Age  c. Industry Age  d. Industrial Age
+
+The period that began in 1957, in which the majority of the workers are invovled in the creation, distribution, and application of information
+a. Agricultural Age  b. Informative Age  c. Information Age  d. Industrial Age
+
+The relationship between results of an activity (output) and the resources used to create those results (inputs).
+a. Productivity  b. Effectiveness c. Work Process  d. Agricultural Age
+
+The combination of activities that workers perform, the way they perform those activities, and the tools they use.
+a. Productivity  b. Effectiveness c. Work Process  d. None of the Above
+
+A set of loctions, or nodes, consisting of hardware, programs, and information linked together as a system that transmits and receives data and infomation.
+a. Hardware  b. Program  c. Software  d. None of the Above
+
+===========================================================================================================================================================
+Identification
+
+internet commerce, hardware,  frederick j. Riggins, purchase, E-commerce services, E-commerce,  Hyeun-Suk Rhee
+CONSUMER-TO-ADMINISTRATION, Consumer-to-Consumer, Business to Business
+
+instruction: Select your answer inside the Box
+
+1. A recent pilot survey shows that some practitioners and managers view
+2. Buying and selling goods and product over internet
+3. One type of the more general "Eectronic Commerce"
+4. The computer and its associated equiptment
+5. By internet Commerce, We mean the use of the global internet for ____.
+
+instruction: Identify what type of e-commerce given scenario and explain
+
+6. Scenario1. The philippine National Police is looking for a software solution company to make their new data storage and the Engtech Global Solution Inc. is the choosen 
+company to work the project. The Engtech will get paid to the PNP after making the project.
+
+7.Scenario2. Mr.wyattis the business minded person he wants to earn extra money due to his needs, aside he has work but his salary is not enough to buy an IPHONE7.
+so, he decided to buy some item in Lazada, that items is worth 500.00 php so he think that he might re-sell the items with the 30% so that he can earn more than his capital amount.
+
+8.Scenario3. Mr. Wyatt and Mr. Kong is one of the richest people in Butuan City. Mr.Wyatt is an online re-seller. One day Mr.Kong is a
+ "TAPULAN" person he always buy some new trends technology in online shop. Mr. Wyatt had a chance topost his items in Lazada so that everyone can see his product.
+Mr.Kong has a Lazada application on his phone while he browse the app. He found Mr.Wyatt's product and he really like it after a seconds he added to cart.
+so after 3days the items arrived to Mr.Kong residence.
+
+===========================================================================================================================================================
+
+
+Essay
+
+instruction: it must be briefly and concise.
+
+1. Explain the e-commerce and E-business.(5points)
+2. Base in the scenario1, E-business is related also to the situation above? Explain it HOW?
+(5pts Content, 5pts construction, 5pts grammar = 15points)
+3. compare and contrast Customer to Cutomer (c2c) and Business to Costumer (b2c). (9points).
+4. Since information technology is all around us, improving our lives and what kind of technology you will contribute to the society?
+defend your answer( 10pts content, 5pts construction, 5 pts grammar = 20 points)
+5.In your own way, how can you help those people who live in countryside and to convince them to change their lifestyle into modern technology that can give 
+them better lifestyle(5points)
+
+
+=======================================================================================================================================================
+Problem Solving
+
+1. How can you formulate like this HTML? SHOW ME YOUR CODE (10points)
+2. Lets assume that this log-in form cannot login but it has database, you name it as loginform and you have one table you name it as "users" that table users has
+two data "user_id username and password" (10points).
